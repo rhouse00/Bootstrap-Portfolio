@@ -10,7 +10,7 @@ body {
 }
 .container {
     min-height: 100%;
-    height: auto;
+    height: auto !important; /*https://www.sitepoint.com/community/t/height-auto-important/24589*/
     height: 100%;
     margin: 0 auto -55px; /* the bottom margin is the negative value of the footer's height */
 }
