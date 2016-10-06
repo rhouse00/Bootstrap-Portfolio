@@ -1,0 +1,22 @@
+	
+See the example below. This will position your Footer to stick to bottom if the page has less content and behave like a normal footer if the page has more content.
+
+Demo and Tutorial
+
+CSS
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -55px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 55px; /* .push must be the same height as .footer */
+}
