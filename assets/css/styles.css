@@ -13,7 +13,7 @@ body {
     height: auto !important; /*https://www.sitepoint.com/community/t/height-auto-important/24589*/
     height: 100%;
     margin: 0 auto -55px; /* the bottom margin is the negative value of the footer's height */
-}
+}  /*Had to use the !important bc when it was NOT applied, it would allow the panel to remain halfway up the screen.*/
 .footer, .push {
     height: 55px; /* .push must be the same height as .footer */
 }
