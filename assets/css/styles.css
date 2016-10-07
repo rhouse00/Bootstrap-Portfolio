@@ -8,7 +8,7 @@ html, body {
 body {
 	padding-top: 87px;
 }
-.container {
+.container { /*http://stackoverflow.com/questions/21324395/bootstrap-3-flush-footer-to-bottom-not-fixed*/
     min-height: 100%;
     height: auto !important; /*https://www.sitepoint.com/community/t/height-auto-important/24589*/
     height: 100%;
